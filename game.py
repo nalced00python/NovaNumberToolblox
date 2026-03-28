@@ -1,72 +1,74 @@
-print ("Welcome to Nova Number Guessing Version 2.1")
-githubinfo = ("Go to my Github Repo called 'Nova-Number-Guessing' to view future events and updates")
-print (githubinfo)
-print ("Good Luck!")
-endlog = ("Thank you for playing! Check my Git Repo for more!")
-
-input("Press enter to begin playing")
-
 import random
 
+print("Welcome to Nova Number Guessing Version 3.0")
+githubinfo = "Go to my Github Repo called 'Nova-Number-Toolbox' to view future events and updates"
+print(githubinfo)
+
+rules = "To guess, type in a number between the given values. The game will tell you if you have gotten it correct, wrong, or if your entered value is invalid."
+print(rules)
+
+print("Good Luck!")
+input("Press enter to begin playing")
+
+# -------- ROUND 1 --------
 low = 1
 high = 40
 tries = 0
-number = random.randint(low,high)
+number = random.randint(low, high)
 
 while True:
-    guess = int(input(f"Enter your guess... It will be between ({low} - {high}):"))
+    guess = int(input(f"Round 1 (Easy): Guess a number between {low}-{high}: "))
     tries += 1
 
     if guess < number:
-        print (f"{guess} is too little. Try again!")
+        print(f"{guess} is too low. Try again!")
     elif guess > number:
-        print (f"{guess} is too much. Try again!")
+        print(f"{guess} is too high. Try again!")
     else:
-        print (f"{guess} is correct! Good job!")
-
-        print(f"This round took you {tries} tries to get it right")
+        print(f"{guess} is correct! Good job!")
+        print(f"This round took you {tries} tries!")
         break
 
-playagainlog = input ("This time, it will be harder! Press enter to defeat the final round!")
+# -------- ROUND 2 --------
+input("Press Enter for Round 2...")
 
 low = 1
 high = 70
 tries = 0
-number = random.randint(low,high)
+number = random.randint(low, high)
 
 while True:
-    guess = int(input(f"Enter your guess... It will be between ({low} - {high}):"))
+    guess = int(input(f"Round 2 (Medium): Guess a number between {low}-{high}: "))
     tries += 1
 
     if guess < number:
-        print (f"{guess} is too little. Try again!")
+        print(f"{guess} is too low. Try again!")
     elif guess > number:
-        print (f"{guess} is too much. Try again!")
+        print(f"{guess} is too high. Try again!")
     else:
-        print (f"{guess} is correct! Good job!")
-
-        print(f"This harder round took you {tries} tries to get it right")
+        print(f"{guess} is correct! Good job!")
+        print(f"This round took you {tries} tries!")
         break
 
-twoplaylog = input ("But wait... That's Not all!!! This time, it will be extremely tough! Press enter to win the extreme round!")
+# -------- ROUND 3 --------
+input("Press Enter for Round 3...")
 
 low = 1
 high = 100
 tries = 0
-number = random.randint(low,high)
+number = random.randint(low, high)
 
 while True:
-    guess = int(input(f"Enter your guess... It will be between ({low} - {high}):"))
+    guess = int(input(f"Round 3 (Hard): Guess a number between {low}-{high}: "))
     tries += 1
 
     if guess < number:
-        print (f"{guess} is too little. Try again!")
+        print(f"{guess} is too low. Try again!")
     elif guess > number:
-        print (f"{guess} is too much. Try again!")
+        print(f"{guess} is too high. Try again!")
     else:
-        print (f"{guess} is correct! Good job!")
-
-        print(f"This extreme round took you {tries} tries to get it right! Amazing!")
+        print(f"{guess} is correct! Good job!")
+        print(f"This round took you {tries} tries!")
         break
 
-print (endlog)
+print("Thank you for playing! Check my Github Toolbox for more!")
