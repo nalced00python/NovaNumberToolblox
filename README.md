@@ -1,6 +1,6 @@
-### _**NOVA NUMBERS GUESSING README**_
-Hello! Welcome to Nova Number Guessing, a collection of number games, tools, and programs to make your life more efficient.
-Here are the 5 programs up on the repo right now:
+### _**NOVA NUMBERS TOOLBOX README**_
+Hello! Welcome to Nova Numbers Toolbox, a collection of number games, mini-scripts, and programs to make your Python Backend Developing just a little easier.
+Here are the 5 programs up on the Toolbox Repository right now:
 
 1 **game.py** is the file for the Classic Number Guessing Game. In this game, you guess the correct number, and it gets harder as you go on!
 
@@ -14,6 +14,9 @@ Here are the 5 programs up on the repo right now:
 
 3 **simplecalc.py** is the file for the normal 4-operation positive number calculator.
 
-_ENJOY USING MY PYTHON PROGRAMS! I'M SOON GOING TO ROLL OUT SOME NEW PROGRAMS AS WELL!!_
+# Note: If you don't have an IDE and you still want to use/test the programs, I would highly reccommend using https://onecompiler.com/python to run my programs for a fast, no-ad experience.
+
+_Thank you so much for using this! I am working on programs a lot and appreciate you all!_
+
   
 
