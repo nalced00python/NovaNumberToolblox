@@ -1,4 +1,6 @@
 ### _**NOVA NUMBERS TOOLBOX README**_
+BEFORE READING: Know I am against the use of AI in this toolbox and I do not use it even to assist me. I enjoy this for fun
+
 Hello! Welcome to Nova Numbers Toolbox, a collection of number games, mini-scripts, and programs to make your Python Backend Developing just a little easier.
 Here are the 5 programs up on the Toolbox Repository right now:
 
